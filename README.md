@@ -1,3 +1,3 @@
-e5_Responsive-Blogger
-=====================
+e5_Blogger-Web-Starter-Kit
+==========================
 Built on the Google Web Starter Kit.
