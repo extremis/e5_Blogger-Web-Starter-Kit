@@ -3790,9 +3790,7 @@ main {
         <header class="app-bar promote-layer">
             <div class="app-bar-container">
                 <button class="menu">=</button>
-                <b:section id='header' class='header' maxwidgets="1" showaddelement="no">
-                  
-                </b:section>
+                <b:section id='header' class='header' maxwidgets="1" showaddelement="no"></b:section>
                 <h1 class="logo">Web Starter Kit</h1>
                 <section class="app-bar-actions">
                 <!-- Put App Bar Buttons Here -->
@@ -3814,7 +3812,7 @@ main {
             <p>Welcome to Web Starter Kit.</p>
 
             <b:section class='main' id='main' preferred='yes' showaddelement='no'>
-              <b:widget id='Blog' locked='true' title='Blog Posts' type='Blog'></b:widget>
+              <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'></b:widget>
             </b:section>
 
             <h2 id="get-started">Get Started.</h2>
