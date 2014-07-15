@@ -3791,7 +3791,7 @@ main {
             <div class="app-bar-container">
                 <button class="menu">=</button>
                 <b:section class='logo' id='header' maxwidgets='1' showaddelement='no'>
-                  <b:widget id='Header1' locked='true' title='Your Blog Title(Header)' type='Header'/>
+                  <b:widget id='Header1' locked='false' title='Your Blog Title(Header)' type='Header'/>
                 </b:section>
                 <b:section class='NewContainer' id='NewContainer'/>
 
