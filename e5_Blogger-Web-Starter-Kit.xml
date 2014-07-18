@@ -1552,11 +1552,11 @@ pre {
 * Article nav
 *
 **/
-.article-nav {
+.article-nav .blog-pager {
   overflow: hidden;
   position: relative;
 }
-.article-nav:before {
+.article-nav:before .blog-pager:before {
   content: "";
   border-left: 2px solid #e0e0e0;
   height: 100%;
