@@ -87,9 +87,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.PageList>h2{display:none;visibility:hidden;}
 
-
-
+svg {fill:currentColor;}
 
 
 
@@ -3789,26 +3789,21 @@ main {
     <body>
         <header class="app-bar promote-layer">
             <div class="app-bar-container">
-                <button class="menu">=</button>
+                <button class="menu"><svg style="color:#ffffff;margin-top:18px;margin-left:18px;"><path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/></svg></button>
                 <b:section class='logo' id='header' maxwidgets='1' showaddelement='no'>
-                  /*b:widget id='Header1' locked='false' title='Your Blog Title(Header)' type='Header'/>*/
+                  <b:widget id='Header1' locked='false' title='Your Blog Title(Header)' type='Header'></b:widget>
                 </b:section>
-                <b:section class='NewContainer' id='NewContainer'/>
 
-                <h1 class="logo">e5: Blogger Web Starter Kit Template</h1>
-                <section class="app-bar-actions">
                 <!-- Put App Bar Buttons Here -->
-                </section>
+                <b:section class='app-bar-actions' id='app-bar-actions'>
+                  
+                </b:section>
             </div>
         </header>
 
-        <nav class="navdrawer-container promote-layer">
-            <h4>Navigation</h4>
-            <ul>
-                <li><a href="https://plus.google.com/+extremisE5/about">Google+</a></li>
-                <li><a href="https://github.com/extremis/e5_Blogger-Web-Starter-Kit">GitHub Repo</a></li>
-            </ul>
-        </nav>
+        <b:section class='navdrawer-container promote-layer' id='pagenav' maxwidgets='1' showaddelement='no'>
+          <b:widget id='PageList1' locked='false' title='Navigation' type='PageList'></b:widget>
+        </b:section>
 
         <main>
 
