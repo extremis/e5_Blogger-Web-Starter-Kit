@@ -1,4 +1,4 @@
-e5_WebStarterKit-Blogger
+Google Web Starter Kit Blogger Template
 -----------------------
 A Blogger Template (xml) built on the Google Web Starter Kit.
 =======================
